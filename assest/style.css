@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@media screen  and (min-width: 1225px){
+#header{
+    background-image: url("../assest/img/bg.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 808px;
+}
+#navbar{
+    padding-top: 72px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 88px;
+}
+#nav-left i,h1{
+    display: inline-block;
+}
+#nav-left .icon-volume{
+    font-size: 32px;
+    color: #fff;
+    
+}
+#nav-left h1{
+    color: #fff;
+    margin-left: 10px;
+    font-weight: 500;
+}
+span{
+    font-weight: 700;
+}
+#nav-list li{
+    display: inline-block;
+}
+#nav-list{
+padding-top: 14px;
+margin-right: 264px;
+}
+#nav-list a{
+    padding-right: 56px;
+    font-size: 18px;
+    font-weight: 600;
+}
+#nav-logo{
+    padding-top: 14px;
+    margin-right: 120px;
+    font-size: 24px;
+}
+.logo-cart{
+    margin-right: 24px;
+}
+#content-header{
+margin-top: 190px;
+margin-left: 88px;
+}
+.content-text{
+    font-family: Work Sans;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+#guitar-lesson{
+    margin-top: 180px;
+    margin-left: 88px;
+}
+    
