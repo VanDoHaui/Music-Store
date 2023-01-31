@@ -4,7 +4,7 @@
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-@media  (min-width: 1225px){
+@media  (min-width:1024px) and (max-width :1224px){
 #header{
     background-image: url("../assest/img/bg.png");
     background-size: 100%;
@@ -16,7 +16,8 @@
 .gear-card{
     width: 50% !important;
 }
-
+.small-gear{
+}
 .mt4px{
     margin-top: -5px;
 }
@@ -52,7 +53,7 @@ span{
     font-weight: 700;
 }
 #nav-list li{
-    display: inline-block;
+    display: block;
 }
 #nav-list{
 padding-top: 14px;
@@ -66,12 +67,14 @@ margin-right: 264px;
 }
 #nav-logo{
     padding-top: 14px;
+    display: none;
     color: #fff;
     margin-right: 120px;
     font-size: 24px;
 }
 .logo-cart{
     margin-right: 24px;
+    display: none;
 }
 #content-header{
 margin-top: 190px;
